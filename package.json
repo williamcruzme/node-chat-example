@@ -1,0 +1,29 @@
+{
+  "name": "node-chat-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamcruzme/node-chat-example.git"
+  },
+  "keywords": [],
+  "author": "John Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamcruzme/node-chat-example/issues"
+  },
+  "homepage": "https://github.com/williamcruzme/node-chat-example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-status-monitor": "^1.2.8",
+    "morgan": "^1.9.1",
+    "redis": "^2.8.0",
+    "socket.io": "^2.3.0",
+    "socket.io-redis": "^5.2.0"
+  }
+}
