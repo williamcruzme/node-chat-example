@@ -12,5 +12,6 @@ RUN yarn
 COPY . /usr/src/app
 
 EXPOSE 3001
+ENV REDIS_SERVICE_HOST redis
 
 CMD [ "yarn", "start"]
