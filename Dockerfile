@@ -13,7 +13,4 @@ COPY . /usr/src/app
 
 EXPOSE 3001
 
-ENV WEBSOCKET_PATH chat
-ENV REDIS_SERVICE_HOST 35.192.173.135
-
 CMD [ "yarn", "start"]
