@@ -13,12 +13,12 @@ app.use(statusMonitor());
 
 // Initialize Socket.IO
 const io = require('socket.io')(server, {
-  path: process.env.WEBSOCKET_PATH || '/socket.io',
+  path: '/chat',
 });
 
 io.adapter(redisAdapter({
-  host: process.env.REDIS_SERVICE_HOST || 'localhost',
-  port: process.env.REDIS_SERVICE_PORT || 6379,
+  host: '35.192.173.135',
+  port: 6379,
 }));
 
 // Configure Socket.IO events
